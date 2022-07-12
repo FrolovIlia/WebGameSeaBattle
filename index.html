@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SeaBattle</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="elements">
+            <div class="count_elements">
+                <div class="counters">
+                    <div class="counter_1">
+                        <h1 class="score_style">00</h1>
+                        <div class="counter_line"></div>
+                        <h2 class="player_name">player 1</h2>
+                    </div>
+
+                    <div class="counter_2">
+                        <h1 class="score_style">00</h1>
+                        <div class="counter_line"></div>
+                        <h2 class="player_name">player 2</h2>
+                    </div>
+                </div>
+
+                <div class="ship_division">
+                    <div class="ship_condition">
+                        <img class="img" id="aircraft" src="images/Aircraft%20Shape.png" alt="">
+<!--                        Здесь должен быть счётчик подбитий корабля-->
+                    </div>
+
+                    <div class="ship_condition">
+                        <img class="img" id="battleship" src="images/Battleship%20Shape.png" alt="">
+<!--                        <img class="img" id="indicator" src="images/m_Miss%20small.png" alt="">-->
+                    </div>
+
+                    <div class="ship_condition">
+                        <img class="img" id="cruiser" src="images/Cruiser%20Shape.png" alt="">
+
+                    </div>
+
+                    <div class="ship_condition">
+                        <img class="img" id="submarine" src="images/Submarine%20Shape.png" alt="">
+
+                    </div>
+
+                    <div class="ship_condition">
+                        <img class="img" id="carrier" src="images/Carrier%20Shape.png" alt="">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="elements">
+            <div class="game_field">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

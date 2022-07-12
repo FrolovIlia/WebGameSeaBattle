@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: red;
+}
+
+.counters{
+    margin-top: 10vh;
+    margin-left: 30vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.counter_1{
+    width: 12vw;
+    height: 12vw;
+
+    background: #facb03;
+}
+
+.counter_2{
+    width: 12vw;
+    height: 12vw;
+
+    background: #62a79e;
+}
+
+.game_field {
+    margin-left: 100px;
+    margin-top: 10vh;
+    width: 70vh;
+    height: 70vh;
+
+    background: whitesmoke;
+    border: 3px solid #facb03;
+}
+.container{
+    /*margin-left: 20vw;*/
+    display: flex;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.ship_division{
+    margin-left: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ship_condition{
+    display: flex;
+    flex-direction: row;
+}
+
+.score_style{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.counter_line{
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 5px;
+
+    background: #817070;
+}
+
+.player_name{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: 'Secular One', sans-serif;
+    font-style: normal;
+    line-height: 10%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+img{
+    padding-top: 3%;
+    display: block;
+    margin-right: auto;
+    width: 30%;
+}
+
+#indicator{
+    width: 20px;
+    height: 20px;
+}
