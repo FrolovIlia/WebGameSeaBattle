@@ -3,43 +3,38 @@
     padding: 0;
 }
 
-p{
-    color: red;
-}
-
 .counters{
     margin-top: 10vh;
-    margin-left: 30vh;
     display: flex;
     flex-direction: row;
+
 }
 
 .counter_1{
     width: 12vw;
     height: 12vw;
-
     background: #facb03;
 }
 
 .counter_2{
     width: 12vw;
     height: 12vw;
-
     background: #62a79e;
 }
 
 .game_field {
-    margin-left: 100px;
     margin-top: 10vh;
     width: 70vh;
     height: 70vh;
 
     background: whitesmoke;
     border: 3px solid #facb03;
+
 }
+
 .container{
-    /*margin-left: 20vw;*/
     display: flex;
+    justify-content: center;
 }
 
 .elements{
@@ -48,7 +43,6 @@ p{
 }
 
 .ship_division{
-    margin-left: 30vh;
     display: flex;
     flex-direction: column;
 }
@@ -63,18 +57,18 @@ p{
     margin-bottom: 15%;
     font-family: 'Secular One', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 53px;
+    font-weight: normal;
+    font-size: 350%;
+    line-height: 90%;
     text-align: center;
     text-transform: uppercase;
 }
+
 .counter_line{
     display: flex;
     margin-left: 10%;
     width: 80%;
     height: 5px;
-
     background: #817070;
 }
 
@@ -95,7 +89,12 @@ img{
     width: 30%;
 }
 
-#indicator{
-    width: 20px;
-    height: 20px;
+
+.horizontal{
+    width: 70vh;
+    height: 70vh;
+
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
 }
