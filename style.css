@@ -29,7 +29,7 @@
 
     background: whitesmoke;
     border: 3px solid #facb03;
-
+    position: relative;
 }
 
 .container{
@@ -97,4 +97,27 @@ img{
     flex-direction: column;
     display: flex;
     justify-content: space-evenly;
+    position: absolute;
+}
+
+.vertical{
+    width: 70vh;
+    height: 70vh;
+
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 100%;
 }
