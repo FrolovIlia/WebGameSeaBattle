@@ -14,6 +14,7 @@
     width: 12vw;
     height: 12vw;
     background: #facb03;
+
 }
 
 .counter_2{
@@ -45,11 +46,14 @@
 .ship_division{
     display: flex;
     flex-direction: column;
+    width: 70vh;
+
 }
 
 .ship_condition{
     display: flex;
     flex-direction: row;
+
 }
 
 .score_style{
@@ -68,8 +72,9 @@
     display: flex;
     margin-left: 10%;
     width: 80%;
-    height: 5px;
-    background: #817070;
+    height: 2px;
+    background: black;
+    align-items: center;
 }
 
 .player_name{
@@ -82,11 +87,11 @@
     text-transform: lowercase;
 }
 
-img{
+.img1{
     padding-top: 3%;
     display: block;
-    margin-right: auto;
     width: 30%;
+
 }
 
 
@@ -120,4 +125,12 @@ hr {
 .vl {
     border-left: 2px solid black;
     height: 100%;
+}
+
+.indicator {
+    padding-top: 5%;
+    padding-right: 0.5%;
+    width: 5%;
+    height: 5%;
+    justify-content: flex-start;
 }
